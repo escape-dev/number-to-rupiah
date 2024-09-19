@@ -6,4 +6,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Muhammad Hafiz Al Fikri"]
   s.email       = "esc4pe.dev@gmail.com"
   s.files       = ["lib/number_to_rupiah.rb"]
+  
+  s.add_development_dependency("rspec", ">= 3.5.0")
 end
